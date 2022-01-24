@@ -9,7 +9,8 @@ const Year = ({ year, population }) => {
         <div>
             Elephant population for { year.name }
             <br />
-            { population.count }
+
+            <h2><strong>{ population.count }</strong></h2>
         </div>
     )
 };

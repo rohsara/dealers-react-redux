@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { connect, Provider } from 'react-redux';
-import { Switch, HashRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import store, { loadYears, loadPopulations, setView } from './store';
 import Years from './Years';
 import Year from './Year';
@@ -38,10 +38,9 @@ const App = connect(
                         African Elephant's population sizes. </p>
                     <img src='ele.jpeg'></img>
                     <Years />
-                    {/* <Route component={ Years } path='/years' exact /> */}
+                    
                     <Route component={ Year } path={'/years/:id'} exact />
-                    {/* <Switch>
-                    </Switch> */}
+                    
                 </div>
             </Router>
         )
