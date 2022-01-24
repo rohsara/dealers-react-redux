@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', arial,sans-serif;
+    padding-bottom: 56px;
+    margin: 1rem;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #222, #333);
+    background-attachment: fixed;
+    color: #f2f2f2;
+    letter-spacing: 0.03em;
+}
+
+small {
+    font-size: 18px;
+    color: darkgray;
+}
+img {
+    width: 30%;
+}
+.yrr {
+    /* min-width: 150px; */
+    max-width: 100px;
+    /* height: 100%; */
+    margin: 1rem;
+    background-color: #333;
+    border-right: 1px solid gray;
+    /* text-align: right; */
+    /* position: fixed; */
+}
+
+.yrr a {
+    transition: border 0.2s ease;
+    cursor: pointer;
+}
+
+.singleYr {
+    color: #00aaaa;
+    font-size: 2em;
+}
+
